@@ -1,0 +1,300 @@
+body{
+    margin:auto;
+    
+}
+a{
+    text-decoration:none;
+}
+
+#icon{
+   float:left;
+   margin-left:1%;
+   margin-top: 0%;
+}
+#foicon{
+    height:60px;
+    width:60px;
+}
+#search{
+    height:500px;
+    width:100%;
+    background-image: url('https://i.ibb.co/y0D6Hhs/img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    position: relative;
+
+}
+#mlogo{
+    height:150px;
+    width:150px;
+    background-color: #f5f5f3a3;
+    border-radius:50%;
+    margin-left:43%;
+    margin-top: 5%;
+    position:absolute;
+}
+#mlogo>span{
+    margin-left:25%;
+    margin-top: 13%;
+    position:absolute;
+    font-size:80px;
+    color:#aa6504d1;
+}
+#heading{
+    margin-left:25%;
+    margin-top: 17%;
+    position:absolute;
+    font-size:50px;
+    color:#015365f7;
+}
+.dropdownn{
+    height:50px;
+    width:60%;
+    margin-left:22%;
+    margin-top:24%;
+    position:absolute;
+    
+}
+select{
+    height:50px;
+    width:40%;
+    font-size:20px;
+    text-align:center;
+    border-radius: 20px;
+}
+.rese{
+    width:55%;
+}
+#quickSearch{
+    height:550px;
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+}
+#qhead{
+    font-size:30px;
+    color:#015365f7;
+    display:block;
+    margin-left:2%;
+    font-weight: bold;
+
+}
+#qshead{
+    font-size: 20px;
+    color:#761616;
+    display:block;
+    line-height:2;
+    margin-left:2%;
+}
+.tilecontainer{
+    height:180px;
+    width:30%;
+    display:inline-block;
+    margin-left:2%;
+    margin-top:2%;
+    box-shadow: 12px 19px 22px  grey;
+    transform:  scale 2s;
+    animation: dance 20s infinite;
+}
+@keyframes dance {
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    50% {transform:rotate(5deg)}
+    60% {transform:scale(1.1)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}
+.tilecontainer:hover{
+   transform: scale(1.1);
+   
+    
+}
+.tilecomponent1{
+    width:50%;
+    height:180px;
+    background-color: aqua;
+    float:left;
+}
+.tilecomponent1>img{
+    width:100%;
+    height:180px;
+}
+.tilecomponent2{
+    width:40%;
+    margin-left:10%;
+    margin-top:18%;
+    float:left;
+}
+.tilecompheading{
+    color:#015365f7;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.tilecompsubheading>a{
+    color:#fff;
+    background-color:#328d9f;
+    padding:6px;
+    line-height: 4;
+    border-radius: 9px;
+    font-size:15px;
+    transition: 0.3s;
+}
+.tilecompsubheading>a:hover{
+    background-color: gold;
+    color:black;
+}
+
+#footer{
+    height:140px;
+    width:100%;
+    
+    background-color: rgb(173 203 209);
+}
+#foottext{
+    text-align: center;
+    
+}
+.footdiv{
+    height:79px;
+    width:34%;
+    float:left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.noborder{
+    border:none;
+    text-align: center;
+}
+@media screen and (max-width:1400px) {
+    
+}
+@media screen and (max-width:1200px) {
+    #mlogo{
+        margin-top:3%;
+    }
+    #heading{
+        margin-left: 23%;
+        margin-top: 17%;
+        font-size: 45px;
+    }
+    .dropdown{
+        margin-left: 24%;
+        margin-top: 24%;
+    }
+    select{
+        width: 37%;
+        font-size: 20px;
+        height: 43px;
+    }
+
+}
+@media screen and (max-width:1000px) {
+    #mlogo{
+        height:120px;
+        width:120px;
+        margin-left:41%;
+        margin-top: 8%;
+
+    }
+    #mlogo>span{
+        margin-left:21%;
+        margin-top: 18%;
+        font-size:63px;
+    }
+    
+    #heading{
+        margin-left: 24%;
+        margin-top: 22%;
+        font-size: 36px;
+    }
+
+    .dropdownn{
+        margin-left:23%;
+        margin-top:30%;
+    }
+    .titleContainer{
+        width:40%;
+    }
+}
+@media screen and (max-width:900px) {
+  
+    #heading{
+        margin-left:23%;
+        margin-top:23%;
+        font-size:35px;
+    }
+    .dropdownn{
+        margin-left:23%;
+        margin-top:32%;
+        width:62%;
+    }
+    select{
+        width:34%;
+        font-size:15px;
+        height:35px;
+    }
+    .tilecompheading{
+        font-size:17px;
+    }
+    .tilecompsubheading{
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width:700px) {
+    #mlogo{
+        height:120px;
+        width:120px;
+        margin-left:40%;
+        margin-top: 10%;
+    }
+    #heading{
+        margin-top:34%;
+        margin-left:18%;
+        font-size:30px;
+    }
+    .dropdownn{
+        margin-left:21%;
+        margin-top:44%;
+    }
+    #quickSearch{
+        height:1300px;
+    }
+    .tilecontainer{
+        width:80%;
+    }
+}
+@media screen and (max-width:500px) {
+    #mlogo{
+        height:100px;
+        width:100px;
+        margin-left:39%;
+        margin-top: 24%;
+    }
+    #mlogo>span{
+        margin-left:21%;
+        margin-top: 20%;
+        font-size:55px;
+    }
+    #heading{
+        margin-top:48%;
+        margin-left:16%;
+        font-size:23px;
+    }
+    .dropdownn{
+        margin-left:21%;
+        margin-top:56%;
+    }
+    select{
+        width:38%;
+        font-size:9px;
+        height:35px;
+    }
+    #quickSearch{
+        height:1300px;
+    }
+    .tilecontainer{
+        width:80%;
+    }
+}

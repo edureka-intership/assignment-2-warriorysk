@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Taste</title>
+    <link rel="stylesheet" href="LocalTaste.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <div id="icon">
+                <img src="./images/ficon.png" alt="page icon" id="foicon">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#search">Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#quickSearch">Quick Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact us</a>
+            </li>    
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div id="search">
+        <div id="mlogo">
+            <span>LT</span>
+        </div>
+        <div id="heading">
+            Find The Best Restaurants Near You
+        </div>
+        <div class="dropdownn">
+            <select>
+                <option>----Select Your City----</option>
+                <option>Chennai</option>
+                <option>Hyderabad</option>
+                <option>Vijayawada</option>
+                <option>Kochi</option>
+                <option>Bangalore</option>
+            </select>
+            <select class="rese">
+                <option>----Select Restaurant----</option>
+                <option>Celeste</option>
+                <option>Southern Aromas</option>
+                <option>Madras Kitchen Company MKC</option>
+                <option>Paradise</option>
+                <option>Dine Inn</option>
+            </select>
+        </div>
+    </div>
+    <div id="quickSearch">
+        <span id="qhead">Quick Search</span>
+        <span id="qshead">Discover Restaurants By Meal</span>
+        <div id="main">
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="./images/bir.avif" alt="biriyani pic" >
+                </div>
+                <div class="tilecomponent2">
+                    <div class="tilecompheading">Biriyanis</div>
+                    <div class="tilecompsubheading"><button type="button" class="btn btn-info">view</button></div>
+                </div>
+            </div>
+            <div class="tilecontainer"> <div class="tilecomponent1">
+                <img src="./images/grl.jpg" alt="grilled chicken " >
+            </div>
+            <div class="tilecomponent2">
+                <div class="tilecompheading">Grills</div>
+                <div class="tilecompsubheading"><button type="button" class="btn btn-info">view</button></div>
+            </div></div>
+            <div class="tilecontainer"> <div class="tilecomponent1">
+                <img src="./images/nood.jpeg" alt="noodles" >
+            </div>
+            <div class="tilecomponent2">
+                <div class="tilecompheading">Chinese</div>
+                <div class="tilecompsubheading"><button type="button" class="btn btn-info">view</button></div>
+            </div></div>
+            <div class="tilecontainer"> <div class="tilecomponent1">
+                <img src="./images/bur.webp" alt="pizza ,burger and garlic bread served with hot sauce" >
+            </div>
+            <div class="tilecomponent2">
+                <div class="tilecompheading">Pizzas</div>
+                <div class="tilecompsubheading"><button type="button" class="btn btn-info">view</button></div>
+            </div></div>
+            <div class="tilecontainer"> <div class="tilecomponent1">
+                <img src="./images/meal.jpeg" alt="Typical south indian meal(Thali)" >
+            </div>
+            <div class="tilecomponent2">
+                <div class="tilecompheading">Veg Thali</div>
+                <div class="tilecompsubheading"><button type="button" class="btn btn-info">view</button></div>
+            </div></div>
+            <div class="tilecontainer"> <div class="tilecomponent1">
+                <img src="./images/beve.webp" alt="beverages" >
+            </div>
+            <div class="tilecomponent2">
+                <div class="tilecompheading">Beverages</div>
+                <div class="tilecompsubheading"><button type="button" class="btn btn-info">view</button></div>
+            </div></div>
+        </div>
+    </div>
+    <div id="footer">
+        <p id="foottext">&copy; YSK DEV 2022</p>
+        <hr>
+        <div class="footdiv">
+            <p>Contact us</p>
+            <p>About us</p>
+        </div>
+        <div class="footdiv">
+            <p>Blog</p>
+            <p>Careers</p>
+        </div>
+        <div class="noborder">
+            <p>Add Restaurant</p>
+        </div>
+    </div>
+    
+</body>
+</html>
